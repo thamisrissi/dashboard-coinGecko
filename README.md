@@ -31,6 +31,9 @@
 No diretório do projeto, você pode executar:
 
 ```bash
+# Instala todas as dependências
+npm install
+
 # Inicia a aplicação em modo de desenvolvimento
 npm run dev
 

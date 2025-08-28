@@ -3,6 +3,8 @@ import { sumValues, deltaValues } from "../utils/metrics";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import type { MetricSummaryState } from "../types";
 import { BackToDashboard } from "../components/back-to-dashboard";
+import noDataImg from "../images/nenhumDadoEncontrado.svg";
+
 
 export default function MetricSummary() {
   const location = useLocation();
@@ -23,7 +25,7 @@ export default function MetricSummary() {
     return (
       <div className="flex flex-col items-center justify-center p-6 min-h-[100vh] space-y-6">
         <img
-          src="src/assets/nenhumDadoEncontrado.svg"
+          src={noDataImg}
           alt="Nenhum dado disponível"
           className="w-48 h-48 object-contain"
         />

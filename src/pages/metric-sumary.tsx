@@ -3,7 +3,7 @@ import { sumValues, deltaValues } from "../utils/metrics";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import type { MetricSummaryState } from "../types";
 import { BackToDashboard } from "../components/back-to-dashboard";
-import noDataImg from "../assets/nenhumDadoEncontrado.svg";
+import noDataImg from "../../public/nenhumDadoEncontrado.svg";
 
 
 export default function MetricSummary() {
